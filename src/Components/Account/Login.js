@@ -2,6 +2,7 @@ import React from "react";
 import "../../Components/Account/Login.js";
 import "../../Assets/CSS/Account/login.css";
 import { Form } from "react-bootstrap";
+import OtpCard from '../Reusable/OtpCard';
 const Login = () => {
   return (
     <>
@@ -39,19 +40,25 @@ const Login = () => {
           </div>
 
           <div className="right-log col-md-3">
-            <h1 className="log-head">An OTP is just sent to your mobile 01827-007441</h1>
-              <p className="Otp-log">Enter the OTP here</p>
+            <h1 className="log-head-r">An OTP is just sent to your mobile 01827-007441</h1>
+              <p className="Otp-log-r">Enter the OTP here</p>
+              <form>
+                <div className="otp-log-body">
+                  <div class="otp-log-main ">
+                    <label for="inputNumber" class="label-text">OTP Verification</label>
+                    <div class="text-center">
+                      <input type="phone" class="form-control text-center input-log " id="inputNumber"  placeholder="5021" />
+                    </div>
 
-              <form className="otp-log-body">
-                <div class="otp-log-main ">
-                  <label for="inputNumber" class="label-text">OTP Verification</label>
-                  <div class="text-center">
-                    <input type="phone" class="form-control text-center input-log " id="inputNumber"  placeholder="5021" />
-                  </div>
-
-                  <div className="btn-otp-l"><button>Resend</button></div>
+                    <div className="btn-otp-l"><button>Resend</button></div>
                     <div className="btn-otp-r"><button>Verify</button></div>
+
                   </div>
+                </div>
+               
+                <div className="text-center">
+                  <button className="otp-log-btn">Administrator log in</button>
+                </div>
               </form>
           </div>
 

@@ -1,5 +1,5 @@
 .log-body{
-    margin-top: 15%;
+    margin-top: 8%;
     margin-left: 15%;
 }
 
@@ -9,17 +9,25 @@
 
 }
 
-.log-head{
+.log-head-r{
     font-size: 15px;
+    width: 250px;
     
+    margin-left: 20px;
+    
+}
+.Otp-log-r{
+    margin-left: 20px;
 }
 
 .otp-log-body{
-    background-color: chocolate;
+    background-color: white;
     width: 250px;
     height: 150px;
     margin-top: 20px;
-    box-shadow:5px solid rgb(145, 46, 46);
+    margin-left: 20px;
+    box-shadow: 2px 2px  2px 2px rgb(255,255,255),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 .otp-log-main{
@@ -66,86 +74,22 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.otp-h{
-    color:#707070;
-}
-.otp-p{
-    color:#707070;
-}
-
-.otp-q{
-    color:#707070;
-    text-align: left !important;
-}
-
-
-
-.log-In-Otp{
-    width: 90%;
-    background-color: rgb(238, 238, 238);
-    
-    padding: 30px;
-    text-align: center;
-
-}
-
-.log-In-Otp input{
-    width: 70%;
-    height: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.otp-submit{
+.otp-log-btn{
+    background-color: #00569F;
+    border:none;
     width: 100%;
-}
-  
-.otp-submit ul{
-    list-style: none;
-    text-align: center;
-    padding: 5px;
-    
-}
-.otp-submit ul li {
-    display: inline;
-    margin: 5px;
-
-}
-
-.resend{
-    background: none;
-    border: none;
-    width: 80px;
-    height: 25px;
-    font-size: 15px;
-    color: rgb(145, 145, 145);
-}
-.verify{
-    width: 80px;
-    border: none;
-    background-color: rgb(111, 202, 58);
-    height: 25px;
-    font-size: 15px;
+    padding: 8px;
+    border-radius: 15px;
     color: white;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    margin-top: 100px;
 }
+
+
+
+
+
+
+
+
+
+
